@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-881.0" y="-956.0">HangmanModel</node>
+    <node x="-1168.4181230757385" y="-1063.3756689056754">GUI.JLettersPanel</node>
+    <node x="-881.0" y="-1176.0">java.awt.event.ActionListener</node>
+    <node x="-1134.0" y="-990.6709765950218">HangmanController</node>
+    <node x="-492.10792156495154" y="-926.8454329343513">basic.Main</node>
+    <node x="-618.3806643579155" y="-1081.6694608870894">GUI.HangmanView</node>
+    <node x="-1011.5" y="-1176.0">javax.swing.JPanel</node>
+    <node x="-709.9548702072352" y="-872.5952550377697">basic.Hangman</node>
+    <node x="-592.3806643579155" y="-1176.0">javax.swing.JFrame</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GUI.JLettersPanel" target="java.awt.event.ActionListener" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="-882.0" y="-1049.3756689056754" />
+      <point x="-882.0" y="-1162.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GUI.HangmanView" target="javax.swing.JFrame" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-539.8806643579155" y="-1113.4517925237305" />
+      <point x="-559.8806643579155" y="-1113.4517925237305" />
+      <point x="-20.0" y="14.0" />
+    </edge>
+    <edge source="HangmanModel" target="basic.Hangman" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-797.0" y="-782.0" />
+      <point x="-668.9548702072352" y="-782.0" />
+      <point x="-20.0" y="14.0" />
+    </edge>
+    <edge source="GUI.JLettersPanel" target="javax.swing.JPanel" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1092.9181230757385" y="-1102.0" />
+      <point x="-962.0" y="-1102.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0846473861976342" showDependencies="false" x="-803.9547516095145" y="-830.0335508502708" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
