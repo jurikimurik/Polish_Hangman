@@ -125,6 +125,7 @@ public class HangmanGame {
         int index = getHidedWord().toLowerCase().indexOf(letter);
         while (index != -1)
         {
+            System.out.println(index);
             indexes.add(index);
             index = getHidedWord().indexOf(letter, index+1);
         }

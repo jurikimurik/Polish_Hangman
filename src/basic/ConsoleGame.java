@@ -40,7 +40,7 @@ public class ConsoleGame {
         do
         {
             turnResult = turn();
-        } while(turnResult != GameAnswer.WIN || turnResult != GameAnswer.LOSE);
+        } while(turnResult != GameAnswer.WIN && turnResult != GameAnswer.LOSE);
 
 
         showResult(turnResult);
@@ -54,11 +54,22 @@ public class ConsoleGame {
         } else {
             System.out.println("Something strange happened.");
         }
+
+        System.out.println("Wanna play again? Y/N");
+        String input = getStringInput();
+        if(input.equalsIgnoreCase("y"))
+            startNewGame();
     }
 
     private GameAnswer turn()
     {
-        return  GameAnswer.NONE;
+        System.out.println("Word: " + game.getCurrentWord());
+        if(!game.getDescriptionOfWord().isEmpty())
+            System.out.println("Description: " + game.getDescriptionOfWord());
+        System.out.println("Attemps left: " + (game.getNumberOfAttempts() - game.getAttempts()));
+
+        System.out.print("Choose letter: ");
+        return game.check(getStringInput());
     }
 
     public String getStringInput() {
@@ -76,6 +87,9 @@ public class ConsoleGame {
                 ex.printStackTrace();
             }
         }
+
+        //Refreshing scanner for String scan
+        scanner.nextLine();
         return number;
     }
 }
