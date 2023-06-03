@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="Basic game logic created + GameAnswer updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/GameAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/GameAnswer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basic/HangmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/HangmanGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Main.java" afterDir="false" />
     </list>
@@ -75,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685736217371</updated>
-      <workItem from="1685736219424" duration="11148000" />
+      <workItem from="1685736219424" duration="11287000" />
     </task>
     <task id="LOCAL-00001" summary="Project created.">
       <created>1685738410037</created>
@@ -105,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685786432715</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic game logic created + GameAnswer updated.">
+      <created>1685789569154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685789569154</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -117,11 +117,12 @@ public class HangmanGame {
     }
 
     private boolean checkLetter(String letter) {
+        letter = letter.toLowerCase();
         usedCharacters.add(letter);
 
         //Searching for occurances of letters and adding them
         ArrayList<Integer> indexes = new ArrayList<>();
-        int index = getHidedWord().indexOf(letter);
+        int index = getHidedWord().toLowerCase().indexOf(letter);
         while (index != -1)
         {
             indexes.add(index);
