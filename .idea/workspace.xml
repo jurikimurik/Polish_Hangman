@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="Application diagram with basic classes has been created.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/GameAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/HangmanGame.java" afterDir="false" />
+    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="startNewGame() method + constructors created + words data provided.">
+      <change afterPath="$PROJECT_DIR$/words.hm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HangmanModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangmanModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/Hangman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/HangmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/HangmanGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +42,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.Main" />
+      <module name="Polish Hangman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685736217371</updated>
-      <workItem from="1685736219424" duration="3939000" />
+      <workItem from="1685736219424" duration="7943000" />
     </task>
     <task id="LOCAL-00001" summary="Project created.">
       <created>1685738410037</created>
@@ -69,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685739849263</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Basic variables and GameAnswer enum created.">
+      <created>1685782458113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685782458113</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,7 +107,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project created." />
     <MESSAGE value="Application diagram with basic classes has been created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Application diagram with basic classes has been created." />
+    <MESSAGE value="Basic variables and GameAnswer enum created." />
+    <MESSAGE value="startNewGame() method + constructors created + words data provided." />
+    <option name="LAST_COMMIT_MESSAGE" value="startNewGame() method + constructors created + words data provided." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
