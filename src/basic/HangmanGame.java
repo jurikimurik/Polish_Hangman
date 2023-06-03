@@ -70,6 +70,7 @@ public class HangmanGame {
 
     public void reset() {
         setScore(0);
+        setCombo(0);
         setHidedWord("");
         setDescriptionOfWord("");
         setCurrentWord("");
@@ -82,7 +83,7 @@ public class HangmanGame {
     public GameAnswer check(String letter)
     {
         // Only one letter needs to be accepted!
-        if(letter.length() > 1)
+        if(letter.length() > 1 || letter.isEmpty())
             return GameAnswer.ERROR;
 
         //If character was already used
@@ -98,10 +99,17 @@ public class HangmanGame {
                 answer = GameAnswer.WIN;
             else
                 answer = GameAnswer.LETTER_ACCEPTED;
+            //Combo is increasing!
+            setCombo(getCombo()+1);
 
+            int newScore = getScore();
+            newScore += (1000.0 * getCombo()/10.0);
+
+            setScore(newScore);
         } else {
             //If letter is bad
             answer = GameAnswer.LETTER_REJECTED;
+            setCombo(0);
         }
         if(attempts == getNumberOfAttempts())
             answer = checkWin();
@@ -125,7 +133,6 @@ public class HangmanGame {
         int index = getHidedWord().toLowerCase().indexOf(letter);
         while (index != -1)
         {
-            System.out.println(index);
             indexes.add(index);
             index = getHidedWord().indexOf(letter, index+1);
         }
@@ -176,6 +183,8 @@ public class HangmanGame {
 
     //---------------------------VARIABLES------------------------------
     private int score;
+    private int combo;
+
     private String hidedWord;   //This is answer.
     private String descriptionOfWord;   // Additional description of the word
     private String currentWord; //Current string word that CAN be shown!
@@ -240,6 +249,14 @@ public class HangmanGame {
 
     public void setAttempts(int attempts) {
         this.attempts = attempts;
+    }
+
+    public int getCombo() {
+        return combo;
+    }
+
+    public void setCombo(int combo) {
+        this.combo = combo;
     }
 
     //-----------------------------------------------------------------

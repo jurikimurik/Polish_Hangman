@@ -40,6 +40,8 @@ public class ConsoleGame {
         do
         {
             turnResult = turn();
+            if(turnResult == GameAnswer.ERROR)
+                System.out.println("Some error occur! Be careful what you are doing!");
         } while(turnResult != GameAnswer.WIN && turnResult != GameAnswer.LOSE);
 
 
@@ -63,10 +65,13 @@ public class ConsoleGame {
 
     private GameAnswer turn()
     {
+        System.out.println("\n\n\n");
+
         System.out.println("Word: " + game.getCurrentWord());
         if(!game.getDescriptionOfWord().isEmpty())
             System.out.println("Description: " + game.getDescriptionOfWord());
         System.out.println("Attemps left: " + (game.getNumberOfAttempts() - game.getAttempts()));
+        System.out.println("Score: " + game.getScore());
 
         System.out.print("Choose letter: ");
         return game.check(getStringInput());
