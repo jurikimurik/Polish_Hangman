@@ -77,6 +77,71 @@ public class HangmanGame {
         setNumberOfAttempts(0);
     }
 
+    //------IN-GAME METHODS----
+
+    public GameAnswer check(String letter)
+    {
+        // Only one letter needs to be accepted!
+        if(letter.length() > 1)
+            return GameAnswer.ERROR;
+
+        //If character was already used
+        if(getUsedCharacters().contains(letter))
+            return GameAnswer.NONE;
+
+        GameAnswer answer;
+
+        attempts++;
+        if(checkLetter(letter)) {
+            //If letter is good (works for at least one character)
+            if(checkWin() == GameAnswer.WIN)
+                answer = GameAnswer.WIN;
+            else
+                answer = GameAnswer.LETTER_ACCEPTED;
+
+        } else {
+            //If letter is bad
+            answer = GameAnswer.LETTER_REJECTED;
+        }
+        if(attempts == getNumberOfAttempts())
+            answer = checkWin();
+
+        return answer;
+    }
+
+    private GameAnswer checkWin() {
+        if(getCurrentWord().equals(getHidedWord()))
+            return GameAnswer.WIN;
+        else
+            return GameAnswer.LOSE;
+    }
+
+    private boolean checkLetter(String letter) {
+        usedCharacters.add(letter);
+
+        //Searching for occurances of letters and adding them
+        ArrayList<Integer> indexes = new ArrayList<>();
+        int index = getHidedWord().indexOf(letter);
+        while (index != -1)
+        {
+            indexes.add(index);
+            index = getHidedWord().indexOf(letter, index+1);
+        }
+
+        //Not founded
+        if(indexes.size() == 0)
+            return false;
+
+        //Founded (open character at position)
+        StringBuilder builder = new StringBuilder(getCurrentWord());
+        for(int position : indexes)
+        {
+            builder.replace(position, position+1, hidedWord.substring(position, position+1));
+        }
+        setCurrentWord(builder.toString());
+        return true;
+    }
+
     //------BASIC METHODS------
 
     @Override
@@ -85,7 +150,8 @@ public class HangmanGame {
                 "Hided word: " + getHidedWord() + "\n" +
                 "Description: " + getDescriptionOfWord() + "\n" +
                 "Current word: " + getCurrentWord() + "\n" +
-                "Number of attempts: " + getNumberOfAttempts() + "\n");
+                "Number of allowed attempts: " + getNumberOfAttempts() + "\n" +
+                "Number of moves: " + getAttempts() + "\n");
 
         data.append("Used characters: ");
         ArrayList<String> usedCharacters = new ArrayList<>(getUsedCharacters());
@@ -113,7 +179,7 @@ public class HangmanGame {
     private String currentWord; //Current string word that CAN be shown!
     private HashSet<String> usedCharacters; // String needed for wide-coded characters.
     private int numberOfAttempts;
-
+    private int attempts;
     private final Random random = new Random();
     //-----------------------------------------------------------------
 
@@ -164,6 +230,14 @@ public class HangmanGame {
 
     public void setNumberOfAttempts(int numberOfAttempts) {
         this.numberOfAttempts = numberOfAttempts;
+    }
+
+    public int getAttempts() {
+        return attempts;
+    }
+
+    public void setAttempts(int attempts) {
+        this.attempts = attempts;
     }
 
     //-----------------------------------------------------------------

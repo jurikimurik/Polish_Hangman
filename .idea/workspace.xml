@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="startNewGame() method + constructors created + words data provided.">
-      <change afterPath="$PROJECT_DIR$/words.hm" afterDir="false" />
+    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="Basic game logic created + GameAnswer updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/GameAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/GameAnswer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basic/HangmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/HangmanGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Main.java" afterDir="false" />
     </list>
@@ -75,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685736217371</updated>
-      <workItem from="1685736219424" duration="7943000" />
+      <workItem from="1685736219424" duration="11148000" />
     </task>
     <task id="LOCAL-00001" summary="Project created.">
       <created>1685738410037</created>
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685782458113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="startNewGame() method + constructors created + words data provided.">
+      <created>1685786432715</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685786432715</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +116,8 @@
     <MESSAGE value="Application diagram with basic classes has been created." />
     <MESSAGE value="Basic variables and GameAnswer enum created." />
     <MESSAGE value="startNewGame() method + constructors created + words data provided." />
-    <option name="LAST_COMMIT_MESSAGE" value="startNewGame() method + constructors created + words data provided." />
+    <MESSAGE value="Basic game logic created + GameAnswer updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic game logic created + GameAnswer updated." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
