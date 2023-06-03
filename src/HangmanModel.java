@@ -1,4 +1,4 @@
-import basic.Hangman;
+import basic.HangmanGame;
 
-public class HangmanModel extends Hangman {
+public class HangmanModel extends HangmanGame {
 }

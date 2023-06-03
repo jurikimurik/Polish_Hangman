@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="Project created.">
-      <change afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HangmanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HangmanModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HangmanView.java" afterDir="false" />
+    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="Application diagram with basic classes has been created.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/GameAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/HangmanGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HangmanModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangmanModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/Hangman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -36,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
@@ -49,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685736217371</updated>
-      <workItem from="1685736219424" duration="962000" />
+      <workItem from="1685736219424" duration="3939000" />
     </task>
     <task id="LOCAL-00001" summary="Project created.">
       <created>1685738410037</created>
@@ -58,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685738410037</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Application diagram with basic classes has been created.">
+      <created>1685739849263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685739849263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,7 +77,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Project created." />
+    <MESSAGE value="Application diagram with basic classes has been created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Application diagram with basic classes has been created." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
