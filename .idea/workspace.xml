@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="Basic game logic created + GameAnswer updated.">
+    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="Checking improved (downcased letters = uppercase letters)">
+      <change afterPath="$PROJECT_DIR$/src/basic/ConsoleGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/HangmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/HangmanGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,6 +40,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
@@ -74,7 +81,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685736217371</updated>
-      <workItem from="1685736219424" duration="11287000" />
+      <workItem from="1685736219424" duration="12214000" />
+      <workItem from="1685793841397" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="Project created.">
       <created>1685738410037</created>
@@ -111,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685789569154</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Checking improved (downcased letters = uppercase letters)">
+      <created>1685789763072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685789763072</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +138,8 @@
     <MESSAGE value="Basic variables and GameAnswer enum created." />
     <MESSAGE value="startNewGame() method + constructors created + words data provided." />
     <MESSAGE value="Basic game logic created + GameAnswer updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic game logic created + GameAnswer updated." />
+    <MESSAGE value="Checking improved (downcased letters = uppercase letters)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checking improved (downcased letters = uppercase letters)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
