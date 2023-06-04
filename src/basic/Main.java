@@ -1,8 +1,6 @@
 package basic;
 
-import GUI.HangmanView;
-
-import javax.swing.*;
+import GUI.HangmanController;
 
 public class Main {
 
@@ -15,11 +13,6 @@ public class Main {
     }
     public static void startGameInApp()
     {
-        JFrame frame = new JFrame("HangmanView");
-        HangmanView view = new HangmanView();
-        frame.setContentPane(view.getMainPanel());
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
+        HangmanController controller = new HangmanController();
     }
 }

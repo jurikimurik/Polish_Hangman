@@ -3,10 +3,10 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="-881.0" y="-956.0">HangmanModel</node>
+    <node x="-881.0" y="-956.0">GUI.HangmanModel</node>
     <node x="-1168.4181230757385" y="-1063.3756689056754">GUI.JLettersPanel</node>
     <node x="-881.0" y="-1176.0">java.awt.event.ActionListener</node>
-    <node x="-1134.0" y="-990.6709765950218">HangmanController</node>
+    <node x="-1134.0" y="-990.6709765950218">GUI.HangmanController</node>
     <node x="-492.10792156495154" y="-926.8454329343513">basic.Main</node>
     <node x="-618.3806643579155" y="-1081.6694608870894">GUI.HangmanView</node>
     <node x="-1011.5" y="-1176.0">javax.swing.JPanel</node>
@@ -27,7 +27,7 @@
       <point x="-559.8806643579155" y="-1113.4517925237305" />
       <point x="-20.0" y="14.0" />
     </edge>
-    <edge source="HangmanModel" target="basic.Hangman" relationship="GENERALIZATION">
+    <edge source="GUI.HangmanModel" target="basic.Hangman" relationship="GENERALIZATION">
       <point x="0.0" y="-14.0" />
       <point x="-797.0" y="-782.0" />
       <point x="-668.9548702072352" y="-782.0" />

@@ -9,10 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="GUI is now launching + some fixes;">
+    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="GUI created only.">
+      <change afterPath="$PROJECT_DIR$/src/GUI/HangmanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/HangmanModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/additional/Hangman.uml" beforeDir="false" afterPath="$PROJECT_DIR$/additional/Hangman.uml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/HangmanView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/HangmanView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/JLettersPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JLettersPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/HangmanView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/HangmanView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HangmanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HangmanModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/HangmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/HangmanGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +36,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -120,7 +126,7 @@
       <workItem from="1685736219424" duration="12214000" />
       <workItem from="1685793841397" duration="1401000" />
       <workItem from="1685797938686" duration="4215000" />
-      <workItem from="1685869867573" duration="2841000" />
+      <workItem from="1685869867573" duration="6055000" />
     </task>
     <task id="LOCAL-00001" summary="Project created.">
       <created>1685738410037</created>
@@ -206,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685872293956</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="JLettersPanel fixed.">
+      <created>1685873018722</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685873018722</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +238,9 @@
     <MESSAGE value="Example GUI was created." />
     <MESSAGE value="Panel with letters has been created." />
     <MESSAGE value="GUI is now launching + some fixes;" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI is now launching + some fixes;" />
+    <MESSAGE value="JLettersPanel fixed." />
+    <MESSAGE value="GUI created only." />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI created only." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
