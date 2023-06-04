@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="Panel with letters has been created.">
+    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="GUI is now launching + some fixes;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/HangmanView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/HangmanView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/HangmanView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/HangmanView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/JLettersPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JLettersPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +120,7 @@
       <workItem from="1685736219424" duration="12214000" />
       <workItem from="1685793841397" duration="1401000" />
       <workItem from="1685797938686" duration="4215000" />
-      <workItem from="1685869867573" duration="2114000" />
+      <workItem from="1685869867573" duration="2841000" />
     </task>
     <task id="LOCAL-00001" summary="Project created.">
       <created>1685738410037</created>
@@ -200,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685871654347</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="GUI is now launching + some fixes;">
+      <created>1685872293956</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685872293956</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +224,8 @@
     <MESSAGE value="Showing error improved + white spaces + score system." />
     <MESSAGE value="Example GUI was created." />
     <MESSAGE value="Panel with letters has been created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Panel with letters has been created." />
+    <MESSAGE value="GUI is now launching + some fixes;" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI is now launching + some fixes;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

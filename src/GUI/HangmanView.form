@@ -57,7 +57,10 @@
       </component>
       <component id="d2064" class="GUI.JLettersPanel" binding="lettersPanel">
         <constraints border-constraint="South"/>
-        <properties/>
+        <properties>
+          <autoscrolls value="true"/>
+          <maximumSize width="300" height="300"/>
+        </properties>
       </component>
     </children>
   </grid>

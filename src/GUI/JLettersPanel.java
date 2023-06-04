@@ -13,14 +13,16 @@ public class JLettersPanel extends JPanel {
     ArrayList<JButton> buttons;
 
     public JLettersPanel() {
-        FlowLayout layout = new FlowLayout();
+        int rows = 4;
+        GridLayout layout = new GridLayout(rows, buttonNames.length/rows);
         setLayout(layout);
 
+        int index = 0;
         buttons = new ArrayList<>();
         for(String text : buttonNames) {
             JButton button = new JButton(text);
             buttons.add(button);
-            add(button);
+            add(button, index++);
         }
     }
 
