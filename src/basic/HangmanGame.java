@@ -76,6 +76,7 @@ public class HangmanGame {
         setCurrentWord("");
         setUsedCharacters(new HashSet<>());
         setNumberOfAttempts(0);
+        setAttempts(0);
     }
 
     //------IN-GAME METHODS----

@@ -10,16 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="GUI created only.">
-      <change afterPath="$PROJECT_DIR$/src/GUI/HangmanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/HangmanModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/additional/Hangman.uml" beforeDir="false" afterPath="$PROJECT_DIR$/additional/Hangman.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/HangmanView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/HangmanView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/HangmanView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/HangmanView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HangmanController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HangmanModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/JLettersPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/JLettersPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basic/HangmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/HangmanGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +119,7 @@
       <workItem from="1685736219424" duration="12214000" />
       <workItem from="1685793841397" duration="1401000" />
       <workItem from="1685797938686" duration="4215000" />
-      <workItem from="1685869867573" duration="6055000" />
+      <workItem from="1685869867573" duration="6248000" />
     </task>
     <task id="LOCAL-00001" summary="Project created.">
       <created>1685738410037</created>
@@ -219,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685873018722</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="GUI created only.">
+      <created>1685876247074</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685876247074</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

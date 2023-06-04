@@ -27,8 +27,16 @@ public class JLettersPanel extends JPanel {
     }
 
     public void setListenerForButtons(ActionListener listener) {
-        for(JButton button : buttons)
+
+
+        for(JButton button : buttons) {
+
+            for(ActionListener buttonListener : button.getActionListeners())
+                button.removeActionListener(buttonListener);
+
             button.addActionListener(listener);
+        }
+
     }
 
 }
