@@ -18,7 +18,9 @@ public class JLettersPanel extends JPanel {
 
         buttons = new ArrayList<>();
         for(String text : buttonNames) {
-            buttons.add(new JButton(text));
+            JButton button = new JButton(text);
+            buttons.add(button);
+            add(button);
         }
     }
 
