@@ -2,7 +2,7 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.HangmanView">
   <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
-      <xy x="20" y="20" width="546" height="400"/>
+      <xy x="20" y="20" width="546" height="824"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -74,7 +74,9 @@
       <component id="19f2d" class="javax.swing.JLabel" binding="imageLabel">
         <constraints border-constraint="Center"/>
         <properties>
-          <text value="*Something*"/>
+          <horizontalTextPosition value="2"/>
+          <icon value="images/1.png"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="d2064" class="GUI.JLettersPanel" binding="lettersPanel">

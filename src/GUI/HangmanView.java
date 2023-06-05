@@ -1,8 +1,8 @@
 package GUI;
 
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import static java.lang.System.exit;
@@ -37,7 +37,11 @@ public class HangmanView extends JFrame {
     private void drawHangman(int attemps)
     {
         int attempsLeft = maxAttemps-attemps;
-        imageLabel.setText(String.valueOf(attempsLeft));
+        ImageIcon icon = new ImageIcon("src/images/" + attempsLeft + ".png");
+        if(icon.getImageLoadStatus() == MediaTracker.ERRORED)
+            icon = new ImageIcon("images/" + attempsLeft + ".png");
+        imageLabel.setIcon(icon);
+
         mainPanel.repaint();
     }
 

@@ -93,7 +93,7 @@ public class HangmanGame {
 
         GameAnswer answer;
 
-        attempts++;
+
         if(checkLetter(letter)) {
             //If letter is good (works for at least one character)
             if(checkWin() == GameAnswer.WIN)
@@ -108,6 +108,7 @@ public class HangmanGame {
 
             setScore(newScore);
         } else {
+            attempts++;
             //If letter is bad
             answer = GameAnswer.LETTER_REJECTED;
             setCombo(0);

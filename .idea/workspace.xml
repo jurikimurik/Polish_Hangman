@@ -9,12 +9,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="Basic game process created + bug fixed.">
+    <list default="true" id="fe464e51-9cd4-4638-9059-52e1353a7e8c" name="Changes" comment="GUI game is now playable. (Only hangman needed)">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Polish_Hangman_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/HangmanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/HangmanController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/HangmanView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/HangmanView.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/HangmanView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/HangmanView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/HangmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/HangmanGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +74,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -124,7 +138,8 @@
       <workItem from="1685797938686" duration="4215000" />
       <workItem from="1685869867573" duration="6321000" />
       <workItem from="1685877776136" duration="3741000" />
-      <workItem from="1685910055849" duration="622000" />
+      <workItem from="1685910055849" duration="876000" />
+      <workItem from="1685954426500" duration="3741000" />
     </task>
     <task id="LOCAL-00001" summary="Project created.">
       <created>1685738410037</created>
@@ -231,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685876406214</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="GUI game is now playable. (Only hangman needed)">
+      <created>1685910926385</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685910926385</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +275,8 @@
     <MESSAGE value="JLettersPanel fixed." />
     <MESSAGE value="GUI created only." />
     <MESSAGE value="Basic game process created + bug fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic game process created + bug fixed." />
+    <MESSAGE value="GUI game is now playable. (Only hangman needed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI game is now playable. (Only hangman needed)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

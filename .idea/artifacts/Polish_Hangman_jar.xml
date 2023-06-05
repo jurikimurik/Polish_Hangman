@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Polish Hangman:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Polish_Hangman_jar</output-path>
+    <root id="archive" name="Polish Hangman.jar">
+      <element id="module-output" name="Polish Hangman" />
+      <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Polish_Hangman_jar/words.hm" />
+    </root>
+  </artifact>
+</component>
