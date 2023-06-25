@@ -17,7 +17,7 @@ Game in GUI has been created! Furthermore, you can choose which version you want
 
 You can add words and their descriptions as well - just edit the words.hm file or replace is with your file!
 
-⚠️Remeber that each word needs to be added using that template: [:|:]WORD{DESC}Optional description[:|:] ⚠️
+⚠️Remember that each word needs to be added using that template: [:|:]WORD{DESC}Optional description[:|:] ⚠️
 
 
 ### Example
